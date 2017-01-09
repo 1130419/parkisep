@@ -1,0 +1,1 @@
+web: cd $HOME/heroku_output && dotnet ./WebAPI.dll --server.urls http://+:$PORT ${CORE_ENVIRONMENT}  
